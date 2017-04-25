@@ -1,6 +1,5 @@
 body {
-	font-family: "Lato", sans-serif
-	color: green;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .mySlides {
@@ -8,10 +7,28 @@ body {
 }
 
 .w3-top {
-	background-color: rgb(126,139,159);
+	background-color: white;
 }
 
 #flow {
 	display: inline;
 }
 
+#lineBelow {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 20px;
+	border-color: #7e8b9f;
+}
+
+#jobApp {
+	margin-top: 20px;
+	padding-top: 100px;
+}
+
+.title {
+	margin: 0px;
+}
