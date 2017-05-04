@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ConnX Solution Jobs</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--CSS-->
+  <link href="app.css" type="text/css" rel="stylesheet"/> 
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="TopTitle">
+      <img id="flow" src="images/CONNX_logo_white.png">
+      <h2 id="flow">Careers</h1>
+    </div>
+    <hr id="lineBelow">
+    <div class="w3-bar w3-black w3-card-2">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="http://www.connx.com/" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+      <a href="jobListing.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">JOBS</a>
+      <a href="#DASH" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MY DASHBOARD</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+      <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+    </div>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+      <a href="http://www.connx.com/" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+      <a href="jobListing.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">JOBS</a>
+      <a href="login.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MY DASHBOARD</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+  </div>
+
+  <!-- Page content -->
+  <div class="w3-content" style="max-width:2000px;margin-top:46px">
+    <!-- The Contact Section -->
+    <div class="w3-container w3-content" style="max-width:1000px" id="jobApp">
+	<style>
+		cardMargin{
+			margin: 100px;
+		}
+	</style>
+	
+	
+		  <form action="jobListing.html" target="_self">
+            <div class="w3-row-padding" style="width:100%">
+              <div class="w3-third">
+                <input class="w3-input w3-border" type="text" placeholder="Search by job title" name="job title">
+              </div>
+              <div class="w3-third">
+                <input class="w3-input w3-border" type="text" placeholder="Search by location" name="location">
+              </div>
+			  <div class="w3-third">
+				<button class="w3-button w3-black" type="submit">Search Jobs</button>
+			  </div>
+            </div>
+          </form>
+
+	  
+	  
+		<!--will need a loop here to get all the openings from DB and display-->
+		<cardMargin>
+		<div class="w3-container">
+			<div class="w3-card-4" style="width:100%">
+				<header class="w3-container w3-teal">
+					<h1><p class="w3-center title">Front End Developer</p></h1>
+				</header>
+
+				<div class="w3-container">
+					<p>Location: Seattle, WA</p>
+					<p>Job Description: This job is a front end position. Required skills are JavaScript, HTML....adsjbjas;ljfi;eajife;slajf ;leiasjfe i;ljasf i;elajf i;easjf ;esajif ealisj flasfd efsaj;leasjeff;aelskafej;isefasi;jl esa;ilf jes;ailfj esi;afj esi;fj esil;afj ei;safj esi;laf jes;if jeigsjeg ;igeja ;ig ji;eoagt ot;4oat9ujg e;oajg oi;aj ;soiadjv sio;daj fio;ej fiseo;dajf i;sadjf eio;sajf ie;sajf i;esajf e;isljfa esf </p>
+				</div>
+
+				<footer class="w3-container">
+				
+					<form action="/action_page.php" target="_blank">
+						<button class="w3-button w3-black w3-section w3-right" type="submit" formaction="jobPage.html">More Detail</button>
+					</form>
+				</footer>
+			</div>
+		</div>
+		</cardMargin>
+		
+		
+		<cardMargin>
+		<div class="w3-container">
+			<div class="w3-card-4" style="width:100%">
+				<header class="w3-container w3-teal">
+					<h1><p class="w3-center title">Mobile Developer</p></h1>
+				</header>
+
+				<div class="w3-container">
+					<p>Location: Seattle, WA</p>
+					<p>Job Description: A full stack mobile developer. Need to know both Android and IOS development....adsjbjas;ljfi;eajife;slajf ;leiasjfe i;ljasf i;elajf i;easjf ;esajif ealisj flasfd efsaj;leasjeff;aelskafej;isefasi;jl esa;ilf jes;ailfj esi;afj esi;fj esil;afj ei;safj esi;laf jes;if jeigsjeg ;igeja ;ig ji;eoagt ot;4oat9ujg e;oajg oi;aj ;soiadjv sio;daj fio;ej fiseo;dajf i;sadjf eio;sajf ie;sajf i;esajf e;isljfa esf </p>
+				</div>
+
+				<footer class="w3-container">
+					<form action="/action_page.php" target="_blank">
+						<button class="w3-button w3-black w3-section w3-right" type="submit" formaction="jobPage.html">More Detail</button>
+					</form>
+				</footer>
+			</div>
+		</div>
+		</cardMargin>
+		
+		
+		<cardMargin>
+		<div class="w3-container">
+			<div class="w3-card-4" style="width:100%">
+				<header class="w3-container w3-teal">
+					<h1><p class="w3-center title">Database Administrator</p></h1>
+				</header>
+
+				<div class="w3-container">
+					<p>Location: Seattle, WA</p>
+					<p>Job Description: JUST HIRE GREG. HE THE MAN....adsjbjas;ljfi;eajife;slajf ;leiasjfe i;ljasf i;elajf i;easjf ;esajif ealisj flasfd efsaj;leasjeff;aelskafej;isefasi;jl esa;ilf jes;ailfj esi;afj esi;fj esil;afj ei;safj esi;laf jes;if jeigsjeg ;igeja ;ig ji;eoagt ot;4oat9ujg e;oajg oi;aj ;soiadjv sio;daj fio;ej fiseo;dajf i;sadjf eio;sajf ie;sajf i;esajf e;isljfa esf </p>
+				</div>
+
+				<footer class="w3-container">
+					<form action="/action_page.php" target="_blank">
+						<button class="w3-button w3-black w3-section w3-right" type="submit" formaction="jobPage.html">More Detail</button>
+					</form>
+				</footer>
+			</div>
+		</div>
+		</cardMargin>
+		
+		
+		<cardMargin>
+		<div class="w3-container">
+			<div class="w3-card-4" style="width:100%">
+				<header class="w3-container w3-teal">
+					<h1><p class="w3-center title">Prowjekt Manager ;p</p></h1>
+				</header>
+
+				<div class="w3-container">
+					<p>Location: Seattle, WA</p>
+					<p>Job Description: JUST HIRE GREG. HE THE MAN....adsjbjas;ljfi;eajife;slajf ;leiasjfe i;ljasf i;elajf i;easjf ;esajif ealisj flasfd efsaj;leasjeff;aelskafej;isefasi;jl esa;ilf jes;ailfj esi;afj esi;fj esil;afj ei;safj esi;laf jes;if jeigsjeg ;igeja ;ig ji;eoagt ot;4oat9ujg e;oajg oi;aj ;soiadjv sio;daj fio;ej fiseo;dajf i;sadjf eio;sajf ie;sajf i;esajf e;isljfa esf </p>
+				</div>
+
+				<footer class="w3-container">
+					<form action="/action_page.php" target="_blank">
+						<button class="w3-button w3-black w3-section w3-right" type="submit" formaction="jobPage.html">More Detail</button>
+					</form>
+				</footer>
+			</div>
+		</div>
+		</cardMargin>
+		
+    </div>
+    
+  <!-- End Page Content -->
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-center w3-opacity w3-light-grey w3-xlarge">
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  </footer>
+
+</body>
+</html>
